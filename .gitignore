@@ -1,0 +1,25 @@
+# DeepFace models (never push these)
+.deepface/
+*.h5
+*.pth
+*.bin
+*.onnx
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.venv/
+
+# Node
+node_modules/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp photos (you can remove this line if you want to push sample photos)
+database/*.jpg
